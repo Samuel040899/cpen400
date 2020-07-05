@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title> UBC Bookstore </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div id = "header">
+    <div id="header1"> <img id="logo" src="logo.png"> </div>
+    <div id="header2"><img id="banner" src="banner.jpg"></div>
+</div>
+
+<div id = "content">
+    <div id= "content1">
+    <ul id = "menu">
+        <li class = "menuItem">All Items</li>
+        <li class = "menuItem">Books</li>
+        <li class = "menuItem">Clothing</li>
+        <li class = "menuItem">Tech</li>
+        <li class = "menuItem">Gifts</li>
+        <li class = "menuItem">Stationary</li>
+        <li class = "menuItem">Supplies</li>
+        <li class = "menuItem" onClick = "displayCart()">Cart</li>
+    </ul>
+    </div>
+
+    <div id= "content2">
+        <ul id = "productList">
+            <li class = "product"><img src="Box1.png"><p> Box </p><button onClick ="addItems(0)">Add to Cart</button><button onClick ="removeItems(0)">Remove from Cart</button></li>
+            <li class = "product"><img src="Box2.png"><p> Boxes </p><button onClick ="addItems(1)">Add to Cart</button><button onClick ="removeItems(1)">Remove from Cart</button></li>
+            <li class = "product"><img src="Cloth1.png"><p> Red dress </p ><button onClick ="addItems(2)">Add to Cart</button><button onClick ="removeItems(2)">Remove from Cart</button></li>
+            <li class = "product"><img src="Cloth2.png"><p> T-shirt </p><button onClick ="addItems(3)">Add to Cart</button><button onClick ="removeItems(3)">Remove from Cart</button></li>
+            <li class = "product"><img src="Jean1.png"><p> Jeans </p><button onClick ="addItems(4)">Add to Cart</button><button onClick ="removeItems(4)">Remove from Cart</button></li>
+            <li class = "product"><img src="Mouse.png"><p> Mouse </p><button onClick ="addItems(5)">Add to Cart</button><button onClick ="removeItems(5)">Remove from Cart</button></li>
+            <li class = "product"><img src="Keyboard.png"><p> Keyboard </p><button onClick ="addItems(6)">Add to Cart</button><button onClick ="removeItems(6)">Remove from Cart</button></li>
+            <li class = "product"><img src="KeyboardCombo.png"><p> M & K </p><button onClick ="addItems(7)">Add to Cart</button><button onClick ="removeItems(7)">Remove from Cart</button></li>
+            <li class = "product"><img src="PC1.png"><p> Computer </p><button onClick ="addItems(8)">Add to Cart</button><button onClick ="removeItems(8)">Remove from Cart</button></li>
+            <li class = "product"><img src="PC2.png"><p> Computer 2 </p><button onClick ="addItems(9)">Add to Cart</button><button onClick ="removeItems(9)">Remove from Cart</button></li>
+            <li class = "product"><img src="PC3.png"><p> Computer 3 </p><button onClick ="addItems(10)">Add to Cart</button><button onClick ="removeItems(10)">Remove from Cart</button></li>
+            <li class = "product"><img src="Tent.png"><p> Tent </p><button onClick ="addItems(11)">Add to Cart</button><button onClick ="removeItems(11)">Remove from Cart</button></li>
+        </ul>
+    </div>
+
+</div>
+
+<div id = "footer">
+    <h1>Contact Information</h1>
+    <div id ="footer1">
+    <ul id="contact1">
+        <li class = "placeInfo"><p>UBC, LLC</p> </li>
+        <li class = "placeInfo"><p>1234 UBC Blvd</p> </li>
+        <li class = "placeInfo"><p>Vancouver, BC V1V 1V1</p> </li>
+    </ul>
+    </div>
+
+    <div id ="footer2">
+        <ul id="contact2">
+            <li class = "placeInfo"><p>Phone: 604.111.1111</p> </li>
+            <li class = "placeInfo"><p>Fax: 604.111.1112</p> </li>
+            <li class = "placeInfo"><p>Email: 1234@ubc.com</p> </li>
+            <li class = "placeInfo"><p>Facebook: http://facebook.com/UBC</p> </li>
+            <li class = "placeInfo"><p>Twitter: http://twitter.com/UBC</p> </li>
+        </ul>
+    </div>
+</div>
+
+
+</body>
+
+</html>
